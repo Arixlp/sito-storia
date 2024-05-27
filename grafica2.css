@@ -1,0 +1,136 @@
+
+body {
+    background-color: #FDFDF2;
+}
+
+h1 {
+    font-family: lucida; 
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size:26.5px
+}
+
+
+h3 {
+    font-family: lucida; 
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size:23px;
+    margin-top: 60px;
+}
+
+
+#titolo{
+    text-align: center;
+        
+}
+
+.menu {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: #CFD8C4;;
+    font-family: lcd;
+    font-weight: bold;
+    position: sticky;
+    top: 5px;
+}
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    line-height: 0;
+}
+
+.menu ul li {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu a {
+    
+    color: black;
+    font-size: 18pt;
+    text-decoration: none;
+    text-shadow: 1px 3px 1px white;
+    letter-spacing: 2px;
+}
+
+.menu a:hover {
+    background: rgba(0, 0, 0, 0.432);
+    font-size: 20pt;
+    border-radius: 8px;
+    padding: 4px 8px;
+}
+
+
+.home a {
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px;
+    margin: 0 60px;
+    display: inline-block;
+}
+
+
+#sfondo{
+    
+    background-color: #e9edc9;
+    margin-right: 195px;
+    margin-left: 195px;
+}
+
+.contenitore1 {
+
+    width: 1160px;
+    display: flex;
+    margin: auto;
+    line-height: 30px;
+}
+
+.contenitore1 img {
+   
+    float: left;
+    width: 300px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 20px;
+}
+
+
+.testo{
+    font-family: sans-serif;
+    font-size: 17px;
+    text-align: center;
+    padding: 30px;
+}
+
+.testo2{
+    text-align: justify;  
+}
+
+#ri{
+    text-align: center;
+        
+}
+.wapp {
+    width: 75px;
+    position: fixed;
+    bottom: 90px;
+    right: 70px;
+    z-index: 1;
+    opacity: 70%;
+    transition: transform 0.4s ease-in-out;
+}
+
+.wapp:hover {
+    opacity: 100%;
+    transform: rotate(360deg);
+}
